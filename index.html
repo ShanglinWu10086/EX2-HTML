@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Shinchan - Homepage</title>
+</head>
+<body>
+    <header>
+        <img src="assets/assets/shin-chan-banner.jpg" alt="Shinchan Banner" width="50%">
+        <img src="assets/assets/naughtiest-son.jpg" alt="Shinchan Banner" width="50%">
+    </header>
+
+    <nav>
+        <a href="#game">Shinchan: Shiro and the Coal Town Game</a> |
+        <a href="#characters">Character</a> |
+        <a href="#favorite">Who's your favorite</a>
+    </nav>
+
+    <main>
+        <section id="game">
+            <h2>Shinchan: Shiro and the Coal Town</h2>
+            <p>（Available on: Nintendo Switch and Windows PC）</p>
+            <!-- Video Section -->
+            <video width="500" controls>
+                <source src="assets/assets/shinchan-and-the-coal-town.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+
+        <section id="characters">
+            <h2>Characters</h2>
+            <div>
+            <img src="assets/assets/character-shinchan.png" alt="Shinchan" width="150">
+            <p><strong>Shinchan:</strong> The mischievous 5-year-old protagonist known for his hilarious antics and love of choco chips.</p>
+            </div>
+            <div>
+            <img src="assets/assets/character-misae.webp" alt="Misae (Mom)" width="150">
+            <p><strong>Misae (Mom):</strong> Shinchan's short-tempered but loving mother, always trying to keep him in line.</p>
+            </div>
+            <div>
+            <img src="assets/assets/character-hiroshi.webp" alt="Hiroshi (Dad)" width="150">
+            <p><strong>Hiroshi (Dad):</strong> The laid-back father who works at a company and enjoys his evening beer.</p>
+            </div>
+            <div>
+            <img src="assets/assets/character-himawari.png" alt="Himawari (Sister)" width="150">
+            <p><strong>Himawari (Sister):</strong> The youngest of the Noharas. Loves shiny objects and brand-name goods. Smiles sideways, like Shinchan.</p>
+            </div>
+            <div>
+            <img src="assets/assets/character-shiro.png" alt="Shiro (Dog)" width="150">
+            <p><strong>Shiro (Dog):</strong> The family dog — small, fluffy, and sometimes the most sensible member of the household.</p>
+            </div>
+            <div>
+            <img src="assets/assets/character-toru-kazama.webp" alt="Toru Kazama" width="150">
+            <p><strong>Toru Kazama:</strong> The smart and responsible friend of Shinchan, often the voice of reason in the group.</p>
+            </div>
+            </section>
+
+        <section id="favorite">
+            <h2>Who's your favorite?</h2>
+            <form action="#">
+                <label for="favorite-character">Your Favorite Character:</label>
+                <select id="favorite-character" name="favorite-character">
+                    <option value="shinchan">Shinchan</option>
+                    <option value="misae">Misae</option>
+                    <option value="hiroshi">Hiroshi</option>
+                    <option value="himawari">Himawari</option>
+                    <option value="shiro">Shiro</option>
+                    <option value="kazama">Kazama</option>
+                </select>
+
+                <label for="other-character">Character not in the list? Write their name below，</label>
+                <label for="other-favorite-character">Your other favourite character:</label>
+                <input type="text" id="other-favorite-character" name="other-favorite-character" placeholder="Enter other character name">
+
+                <label for="character-reason">Why do you like this character?</label>
+                <textarea id="character-reason" name="character-reason" placeholder="State your reasons in a couple of lines..."></textarea>
+
+                <h3>Tell us a bit more about yourself</h3>
+
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name">
+
+                <label for="Gender">Your Gender:</label>
+
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="male-gender" value="male"> &nbsp;&nbsp;
+                
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="female-gender" value="female">
+
+                <label for="dob">Your Date of Birth:</label>
+                <input type="date" id="dob" name="dob">
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shinchan Fan Site. All rights reserved.</p>
+        <p>Get in touch with us: <a href="mailto:shinchan-lovers@justlearninghtml.com">shinchan-lovers@justlearninghtml.com</a></p>
+    </footer>
+</body>
+</html>
